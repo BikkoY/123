@@ -13,7 +13,6 @@ def get_positive_integer():
         return number
 
 def factorial(n):
-    # Используем оптимизированную функцию из библиотеки math
     return math.factorial(n)
 
 def main():
@@ -22,4 +21,5 @@ def main():
     print(f"Факториал числа {n} равен {result}")
 
 if __name__ == "__main__":
+
     main()
